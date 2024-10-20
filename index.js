@@ -3,7 +3,9 @@ function scuberGreetingForFeet(someValue) {
     return 'This one is on me!';
   } else if (someValue > 400 && someValue <= 2000) {
     return 'That will be twenty bucks.';
-  } else {
+  } else if (someValue>2000){
+    return That will be thirty bucks.';
+  }else if(someValue>2500){
     return 'Sorry, we can’t drive that far.';
   }
 }
@@ -19,6 +21,6 @@ function switchOnCharmFromTip(tip) {
     case tip > 0 && tip <= 100:
       return 'Thank you.';
     case tip > 100:
-      return "You're a gem!";
+      return "Thank you so much.";
   }
 }
