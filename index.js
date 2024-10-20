@@ -6,7 +6,7 @@ function scuberGreetingForFeet(someValue) {
   } else if (someValue>2000){
     return That will be thirty bucks.';
   }else if(someValue>2500){
-    return 'Sorry, we can’t drive that far.';
+    return 'No can do.';
   }
 }
 
